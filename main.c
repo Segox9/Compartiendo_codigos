@@ -6,22 +6,19 @@ int main()
 {
     FILE *f    = fopen("file.dat","rb");
 
-    printf("ftell(): %d\n", ftell(f) );
+    //go to the end of the file
+    fseek( f , 0 , SEEK_END);
+    int size_bytes = ftell( f );
+    int count_elements = size_bytes / sizeof(struct Data);
 
-//    struct Data d[1000];
-//    fread( d , sizeof(struct Data) , ? , f );
+    //rewind the file
+    fseek( f , 0 , SEEK_SET );
+    //rewind( f );
 
-    char c;
-    fread( &c , sizeof(char) , 1 , f );
-    fread( &c , sizeof(char) , 1 , f );
-    fread( &c , sizeof(char) , 1 , f );
-    fread( &c , sizeof(char) , 1 , f );
-    fread( &c , sizeof(char) , 1 , f );
-
-    printf("ftell(): %d\n", ftell(f) );
-
-    fseek( f , -2 , SEEK_CUR );
-    printf("ftell(): %d\n", ftell(f) );
+    struct Data d[1000];
+    fread( d , sizeof(struct Data) , count_elements , f );
+    for( int i=0 ; i<count_elements ; i++ )
+        printf("temp: %f\n",d[i].temp);
 
     fclose(f);
     return 0;
