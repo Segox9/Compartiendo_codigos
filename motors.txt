@@ -1,0 +1,97 @@
+**** Count: 16 ****
+type: DC
+torque:   204 N.m
+current:    3 Amps
+voltage:  163 Volts
+weight:    11 Kg
+--------------------
+type: Brushed
+torque:   451 N.m
+current:    8 Amps
+voltage:  111 Volts
+weight:    15 Kg
+--------------------
+type: DC
+torque:   231 N.m
+current:    3 Amps
+voltage:  112 Volts
+weight:    11 Kg
+--------------------
+type: Induction
+torque:   431 N.m
+current:    5 Amps
+voltage:  212 Volts
+weight:    10 Kg
+--------------------
+type: Brushed
+torque:   180 N.m
+current:   14 Amps
+voltage:   63 Volts
+weight:    12 Kg
+--------------------
+type: Brushed
+torque:    72 N.m
+current:   10 Amps
+voltage:   83 Volts
+weight:    11 Kg
+--------------------
+type: Brushed
+torque:   141 N.m
+current:   12 Amps
+voltage:   87 Volts
+weight:     5 Kg
+--------------------
+type: Brushed
+torque:   434 N.m
+current:    8 Amps
+voltage:   24 Volts
+weight:     9 Kg
+--------------------
+type: Brushless
+torque:   441 N.m
+current:    8 Amps
+voltage:  225 Volts
+weight:    10 Kg
+--------------------
+type: Induction
+torque:    22 N.m
+current:    2 Amps
+voltage:   94 Volts
+weight:    14 Kg
+--------------------
+type: Brushed
+torque:    36 N.m
+current:    1 Amps
+voltage:   59 Volts
+weight:    12 Kg
+--------------------
+type: Brushed
+torque:   316 N.m
+current:    6 Amps
+voltage:  234 Volts
+weight:    13 Kg
+--------------------
+type: Induction
+torque:   237 N.m
+current:    2 Amps
+voltage:  226 Volts
+weight:     7 Kg
+--------------------
+type: DC
+torque:   395 N.m
+current:   11 Amps
+voltage:  185 Volts
+weight:    15 Kg
+--------------------
+type: Brushless
+torque:   362 N.m
+current:    9 Amps
+voltage:   46 Volts
+weight:     5 Kg
+--------------------
+type: DC
+torque:   235 N.m
+current:    1 Amps
+voltage:  143 Volts
+weight:     8 Kg
+--------------------
